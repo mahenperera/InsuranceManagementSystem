@@ -1,0 +1,51 @@
+.footer-c{
+    border: 2px solid black;
+    height: fit-content;
+    width: 100vw;
+    display: flex;
+    -webkit-flex-direction: row;
+    background-color: darkblue;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+footer{
+
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+
+}
+
+.fimage{
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+
+}
+
+.fcontent{
+    border: 2px solid black;
+    height: 120px;
+    width: fit-content;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    line-height: 2px;
+    color: white;
+
+    
+}
+
+.fimage,
+.fcontent{
+    display: inline-block;
+}

@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+:root{
+    --max_width:1200px;
+}
+
+
+
+body{
+    /* margin:0;
+    padding:0; */
+    overflow-x: hidden;
+}
+
+/*navbar_container*/
+.navbar_container{
+    
+    
+    width: 100vw;
+    height: 100px;
+}
+
+/*image container*/
+.img_container {
+    
+    width: 100vw;
+    height: 560px;
+    background-color: darkblue;
+}
+.car_image{
+    
+    width: 100vw;
+    height: 560px;
+    opacity: 60%;
+
+}
+
+/*top*/
+.t_container{
+    
+    
+    width: 100vw;
+    height: 560px;
+    
+}
+.heading1 {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: darkblue;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 120px;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.heading1 h1 {
+    margin-top: 0px;
+}
+
+.heading1 h2 {
+    margin-bottom: 0px;
+}
+
+.text {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+
+
+/*bottom*/
+.b_container{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    
+    background-color: darkblue;
+    width: 100vw;
+}
+.div1 {
+    font-weight: bold;
+}
+
+.vertical-line {
+    
+    height: 80vh;
+    margin: 0 60px;
+}
+
+.value {
+    font-weight: bold;
+}
+
+.details1 {
+    margin-bottom: 8px;
+}
+
+.details2 {
+    margin-bottom: 30px;
+}
+
+.editBtn {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.form{
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.form_label {
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.form input[type="text"] {
+    margin-right: 60px;
+}
+
+
+.test{
+    position: fixed;
+    border: 2px solid black;
+    height: fit-content;
+}
+
+
